@@ -1,0 +1,15 @@
+como usei a sintaxe nova temos q criar o packge.json 
+npm init -y
+e coloca "type": "module",
+
+dps eu instalei um miniframework npm install fastify
+fiz todo um crud em um bd em memoria 
+
+agora npm install postgress
+configuro la no https://neon.tech
+
+crio um .env
+
+npm i dotenv -D
+
+tambem crirei o .gitignore

@@ -1,0 +1,29 @@
+POST http://localhost:8888/livros
+Content-type: application/json 
+
+{
+    "nome": "Algoritmos e estruturas de dados",
+    "autor": "Cormen",
+    "preco": 210.00
+}
+
+
+###
+
+
+GET http://localhost:8888/livros?busca=guia
+
+###
+
+PUT http://localhost:8888/livros/1c282904-4499-4ceb-869d-b38b60ef5e11
+Content-type: application/json 
+
+{
+    "nome": "Algortimos para viver",
+    "autor": "Douglas Adams",
+    "preco": 50.00
+}
+
+###
+
+DELETE  http://localhost:8888/livros/1c282904-4499-4ceb-869d-b38b60ef5e11
